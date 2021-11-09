@@ -168,7 +168,7 @@ public class ContactInfo {
                  * according to the model from Open NLP. 
                  */
                 String[] tokens = tokenizer.tokenize(line);
-		        Span[] nameSpans = finder.find(tokens);
+		Span[] nameSpans = finder.find(tokens);
                  
                 /** 
                  * Records probability
