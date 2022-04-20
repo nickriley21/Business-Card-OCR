@@ -1,7 +1,7 @@
 # Business Card Parser
 This is my solution to the Asymmetrik Programming Challenge, "Business Card OCR".<br />
 https://asymmetrik.com/programming-challenges/<br />
-Business Card Parser akes text from a file that was produced by an imaginary business 
+Business Card Parser takes text from a file that was produced by an imaginary business 
 card scanner and produces the contact information of the person on the card.<br />
 Uses regular expression to process phone numbers and emails and [Apache OpenNLP](https://opennlp.apache.org/)
 to recognize names.<br /> Used Maven 3.6.3 and Java JDK 8.
